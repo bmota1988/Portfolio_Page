@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Bruno Mota</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="start();regular()">
+  <header>
+    <nav>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="#aboutme">About Me</a></li>
+        <li class="nav-li"><a href="#project">Projects</a></li>
+        <li class="nav-li"><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="container-main">
+    <section id="aboutme">
+      <img src="https://assets.codepen.io/4049644/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1586199455&width=512" alt="Perfil photo of Bruno Mota">
+      <div id="aboutme-description">
+        <h1>Bruno Nascimento Mota</h1>
+        <p>I am a Computer Programming student at Algonquin College, focusing on web development!</p>
+        <p>I hope you enjoy my web projects below!</p>
+      </div>
+    </section>
+    <section id="project">
+      <h1>Click on my projects below to know more...</h1>
+      <div id="container-project">
+        <a id="prev" href="javascript:less()"><i class="fa fa-chevron-left" aria-hidden="true"></i></a> <a id="a-project" href="javascript:link()"><img id="myproject"></a> <a id="next" href="javascript:plus()"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+      </div>
+      <form name="form">
+        <input type="text" name="text"><label> / 4</label>
+      </form>
+    </section>
+    <section id="contact">
+      <h1>Find me on social media below!</h1>
+      <ul class="container-contact">
+        <li class="contact-li"><a href="https://codepen.io/bruno-mota" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>CodePen</li>
+        <li class="contact-li"><a href="https://github.com/bmota1988" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>GitHub</li>
+        <li class="contact-li"><a href="https://www.linkedin.com/in/brunonmota/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>LinkedIn</li>
+        <li class="contact-li"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>Gmail</li>
+      </ul>
+    </section>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://use.fontawesome.com/2dbeebdd40.js"></script>
+  <footer>Create by Bruno Mota.</footer>
+</body>
+
+</html>
